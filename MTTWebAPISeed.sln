@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTTWebAPI.WebUI", "MTTWebAPISeed\MTTWebAPI.WebUI.csproj", "{AD44D0E8-D0F7-438C-B130-F52F75D6CF64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTTWebAPI.Tests", "MTTWebAPISeed.Tests\MTTWebAPI.Tests.csproj", "{F110CAC3-FE90-431C-95FA-6FEA71B384C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTTWebAPI.Domain", "MTTWebAPI.Domain\MTTWebAPI.Domain.csproj", "{C1DB86DA-6ACD-417D-99CB-ACD96823505B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://mttwin2008:8180/tfs/c-store
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MTTWebAPI.Domain\\MTTWebAPI.Domain.csproj
+		SccProjectName1 = MTTWebAPI.Domain
+		SccLocalPath1 = MTTWebAPI.Domain
+		SccProjectUniqueName2 = MTTWebAPISeed.Tests\\MTTWebAPI.Tests.csproj
+		SccProjectName2 = MTTWebAPISeed.Tests
+		SccLocalPath2 = MTTWebAPISeed.Tests
+		SccProjectUniqueName3 = MTTWebAPISeed\\MTTWebAPI.WebUI.csproj
+		SccProjectName3 = MTTWebAPISeed
+		SccLocalPath3 = MTTWebAPISeed
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD44D0E8-D0F7-438C-B130-F52F75D6CF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD44D0E8-D0F7-438C-B130-F52F75D6CF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD44D0E8-D0F7-438C-B130-F52F75D6CF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD44D0E8-D0F7-438C-B130-F52F75D6CF64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F110CAC3-FE90-431C-95FA-6FEA71B384C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F110CAC3-FE90-431C-95FA-6FEA71B384C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F110CAC3-FE90-431C-95FA-6FEA71B384C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F110CAC3-FE90-431C-95FA-6FEA71B384C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1DB86DA-6ACD-417D-99CB-ACD96823505B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DB86DA-6ACD-417D-99CB-ACD96823505B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DB86DA-6ACD-417D-99CB-ACD96823505B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DB86DA-6ACD-417D-99CB-ACD96823505B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
